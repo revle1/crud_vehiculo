@@ -10,7 +10,7 @@ app.get('/', function (req, res) {
      })
   });
   
-  //listar 
+  //listar vehiculos
 app.get('/vehiculos', function (req, res) {
 
 vehiculos.find({})

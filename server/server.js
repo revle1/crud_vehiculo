@@ -10,7 +10,7 @@ app.use(bodyParser.json());
 app.use(require("./controllers/vehiculosC.js"));
 
 
- 
+ //conexion base de datos
 mongoose.connect('mongodb://localhost:27017/autos',{
     useNewUrlParser: true,
     useUniFiedTopology: true

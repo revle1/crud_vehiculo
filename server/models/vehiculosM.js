@@ -9,7 +9,7 @@ let vehiculosSchema = new Schema({
         //defaul : "Sin nombre"
 
     },
-
+//son
     marca:{
         type: String,
         require : [true, 'La marca del vehiculo es obligatoria..'],
