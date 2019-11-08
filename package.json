@@ -1,0 +1,32 @@
+{
+  "name": "crudvehiculo",
+  "version": "1.0.0",
+  "description": "crud",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/revle1/crud_vehiculo.git"
+  },
+  "keywords": [
+    "node",
+    "nodejs",
+    "mongodb",
+    "res"
+  ],
+  "author": "Elver Taborda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/revle1/crud_vehiculo/issues"
+  },
+  "homepage": "https://github.com/revle1/crud_vehiculo#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "expresss": "0.0.0",
+    "mongoose": "^5.7.7",
+    "nodemon": "^1.19.4"
+  }
+}
